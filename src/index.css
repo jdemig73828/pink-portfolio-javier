@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fuentes Importadas */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Clases de utilidad para tipografías */
+.font-heading { font-family: 'Lato', sans-serif; }
+.font-sans { font-family: 'Lato', sans-serif; }
+
+body { 
+  font-family: 'Lato', sans-serif; 
+  -webkit-font-smoothing: antialiased; 
+}
+
+/* Personalización del Scrollbar */
+.custom-scrollbar::-webkit-scrollbar { width: 5px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: rgba(255,255,255,0.02); }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(255, 42, 84, 0.3); border-radius: 10px; }
+.custom-scrollbar::-webkit-scrollbar-thumb:hover { background: rgba(255, 42, 84, 0.4); }
+.scrollbar-hide::-webkit-scrollbar { display: none; }
