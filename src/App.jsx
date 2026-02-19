@@ -40,7 +40,7 @@ const EXPERIENCE = [
     role: 'UX - UI & Behavioral Designer',
     period: '2023 - 2026',
     description: 'Estrategia corporativa de usuarios para ABC y medios regionales.',
-    bullets: ['Optimización de CRO mediante Behavioral Design.', 'Rediseño de flujos de pago y registro.'],
+    bullets: ['Optimización de CRO mediante Behavioral Design.', 'Rediseño de flujos de pago y login/registro y piezas de captación.', 'Diseño y ejecución de research cuantitativo y cualitativo', 'IA Powered con base en investigación y análisis de datos'],
     isCurrent: true
   },
   {
@@ -325,6 +325,9 @@ export default function App() {
             </h1>
             <p className="text-lg md:text-2xl text-white/90 font-medium max-w-2xl leading-relaxed mx-auto lg:mx-0 font-sans text-left drop-shadow-sm">
               Transformando comportamientos de usuario en <span className="text-white font-black italic border-b-2 border-white/50">valor de negocio cuantificable</span> mediante evidencia científica.
+            </p>
+            <p className="text-lg md:text-2xl text-white/90 font-medium max-w-2xl leading-relaxed mx-auto lg:mx-0 font-sans text-left drop-shadow-sm">
+              Me muevo en la intersección entre la Influencia Ética, los ciclos de vida del cliente y, finalmente, la conversión. Si crees que encajamos, no lo dejes para luego. Envíame un mensaje, y te explicaré sobre los proyectos que verás a continuación cómo se investigó, que nos motivó a tomar decisiones, cuál era el problema y como se solucionó. <span className="text-white font-black italic border-b-2 border-white/50">Estoy a tu entera disposición.</span> 
             </p>
             <div className="flex flex-col items-center lg:items-start gap-8 pt-4 text-left">
               <div className="flex flex-wrap justify-center lg:justify-start gap-4 text-left">
