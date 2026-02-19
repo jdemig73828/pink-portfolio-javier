@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-// import { Analytics } from "@vercel/analytics/react" 
+import { Analytics } from "@vercel/analytics/react" 
 
 import { 
   TrendingUp, 
@@ -571,7 +571,7 @@ export default function App() {
 
       {/* 2. AÑADIDO: Componente Analytics al final del HTML */}
       {/* Recuerda descomentar esto en producción: */}
-      {/* <Analytics /> */}
+      {<Analytics />}
     </div>
   );
 }
