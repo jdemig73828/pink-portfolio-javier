@@ -215,10 +215,10 @@ const TESTIMONIALS = [
   },
   { 
     id: 8, 
-    name: "Fabiola Jurado", 
+    name: "Roberto Moreno Durán", 
     initials: "FJ", 
     color: "bg-cyan-100 text-cyan-600", 
-    role: "HR Manager en MERCADONA", 
+    role: "Digital Project Manager UX & Procesos", 
     text: "La digitalización de nuestros procesos internos fue mucho más fluida gracias a su diseño centrado en el empleado y su facilidad de uso." 
   },
   { 
