@@ -216,7 +216,7 @@ const TESTIMONIALS = [
   { 
     id: 8, 
     name: "Roberto Moreno Durán", 
-    initials: "FJ", 
+    initials: "RD", 
     color: "bg-cyan-100 text-cyan-600", 
     role: "Digital Project Manager UX & Procesos en Sopra Steria (Mercadona)", 
     text: "La digitalización de nuestros procesos internos fue mucho más fluida gracias a su diseño centrado en el empleado y su facilidad de uso." 
